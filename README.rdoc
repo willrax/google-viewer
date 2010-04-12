@@ -1,0 +1,11 @@
+== GoogleView
+
+Simple class for generating Google Viewer urls.
+
+== Usage
+
+  require 'google-viewer'
+
+  g = GoogleViewer.new('http://example.com/example.pdf')
+  g.viewer_url
+
