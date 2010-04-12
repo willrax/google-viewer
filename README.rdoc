@@ -7,5 +7,6 @@ Simple class for generating Google Viewer urls.
   require 'google-viewer'
 
   g = GoogleView.new('http://example.com/example.pdf')
-  g.viewer_url #http://docs.google.com/viewer?url=http%3A%2F%2Fexample.com%2Fexample.pdf
-
+  g.viewer_url # http://docs.google.com/viewer?url=http%3A%2F%2Fexample.com%2Fexample.pdf
+  g.url        # http://example.com/example.pdf
+  g.open       # opens the viewer_url in your default browser
